@@ -1,6 +1,4 @@
 module.exports = ({ env }) => {
-  console.log("AWS_ACCESS_KEY_ID", env("AWS_ACCESS_KEY_ID"));
-
   return {
     upload: {
       config: {
